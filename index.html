@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contact Us(Khushi Jain)</title>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              
+              
+              
+
+              <p><img src="images/img.jpeg" alt="Image" class="img-fluid"></p>
+
+
+            </div>
+            <div class="col-md-6">
+              <div class="form h-100 contact-wrap p-5">
+            
+            <h1 class="text-center">Contact Us </h1>
+            <h3 class="text-center">Let's Talk !</h3>
+              
+              <form class="mb-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your First name">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Last name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Your Email Address">
+                  </div>
+                </div>
+
+  
+                  <!-- input captcha -->
+                  <div class="captcha-code">
+                      <div class="code">
+                          <div class="dynamic-code"></div>
+                      </div>
+                      <div class="captcha-reload">
+                          <i class="ion-ios-loop-strong"></i>
+                      </div>
+                  </div>
+                  <div class="captcha-input">
+                      <input type="text" class="form-control" id="captcha-input"  required autocomplete="off"  placeholder="Enter captcha code ...">
+                      <span id="errCaptcha"></span>
+                  </div>
+
+                  <button type="submit" class="btn btn-default">Submit</button>
+               <button type="reset" class="btn btn-default">Reset</button>
+  
+              </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success" class="text-center">
+                Your message was sent, thank you!
+              </div>
+              <h6 class="text-center">MADE BY KHUSHI JAIN</h6>
+            </div>
+          </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="captcha.js"></script>
+
+  </body>
+</html>
